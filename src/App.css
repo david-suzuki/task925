@@ -1,0 +1,19 @@
+@import "bootstrap/dist/css/bootstrap.css";
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.rotate-image {
+  animation: rotation 0.7s linear infinite;
+}
+

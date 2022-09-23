@@ -1,0 +1,122 @@
+.free {
+  background-color: lightgray;
+  border: 2px solid gray;
+  width: 70px;
+  height: 20px;
+  top: 10px;
+  border-radius: 25px;
+  position: absolute;
+}
+
+.fixed {
+  background-color: pink;
+  border: 2px solid red;
+  width: 70px;
+  height: 20px;
+  top: 10px;
+  border-radius: 25px;
+  position: absolute;
+}
+
+.icon-span {
+  position: absolute;
+  top: 40%;
+  right: 3%;
+  width: 15px;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.closeDiv {
+  position: absolute;
+  top: 60%;
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  margin-top: 10px;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 52px;
+  height: 26px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #3196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #3196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+div.task-row:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+div.task-hr {
+  border-top: 1px solid lightgray;
+}
+
+.fc .fc-toolbar-title {
+  font-size: 1.45em !important;
+  margin: 0;
+}
+
+.fc .fc-button {
+  padding: 0.2em 0.4em !important;
+}
+
+.fc .fc-toolbar.fc-header-toolbar {
+  margin-bottom: 0.7em !important;
+}

@@ -1,0 +1,9 @@
+.workspace-title {
+    font-size: 18px;
+    font-weight: bold
+}
+
+.show-modal {
+    background-color: gray;
+    opacity: 0.2;
+}

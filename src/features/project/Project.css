@@ -1,0 +1,19 @@
+.task-hr {
+  margin-top: 5px;
+  margin-bottom: 7px;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.fc .fc-toolbar-title {
+  font-size: 1.45em !important;
+  margin: 0;
+}
+
+.fc .fc-button {
+  padding: 0.2em 0.4em !important;
+}
+
+.fc .fc-toolbar.fc-header-toolbar {
+  margin-bottom: 0.7em !important;
+}
